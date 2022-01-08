@@ -37,7 +37,7 @@ const HeroIndex = () => {
                     </div>
                 </div>
                 {/* Second */}
-                <div className="h-full md:min-w-[450px] md:w-1/2 bg-transparent flex flex-col justify-center space-y-5 pt-16 items-start">
+                <div className="h-full md:min-w-[320px] md:w-1/2 bg-transparent flex flex-col justify-center space-y-5 pt-16 items-start">
                     <div className="h-40 w-40 rounded-md bg-[#ffa4004d] flex flex-col items-center justify-center space-y-1">
                         <h2 className="font-bold text-5xl m-0">500K</h2>
                         <h5 className="font-medium text-lg">Users</h5>
