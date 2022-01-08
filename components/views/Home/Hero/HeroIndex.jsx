@@ -17,9 +17,9 @@ const HeroIndex = () => {
                 <button className="w-46 bg-[#e85627] text-white py-2 px-5 rounded-md">Find my breakfast</button>
             </div>
             {/* Mockups */}
-            <div className={`${styled.nobars} h-full w-full md:w-1/2 bg-transparent flex items-center justify-center position relative overflow-x-auto md:overflow-x-hidden -ml-32`}>
+            <div className={`${styled.nobars} h-full m-0 w-full md:w-1/2 bg-transparent flex items-center justify-start md:justify-center position relative overflow-x-auto md:overflow-x-hidden md:-ml-32`}>
                 {/* First */}
-                <div className="h-full min-w-[450px] md:w-1/2 bg-transparent flex flex-col justify-start space-y-5 pr-5 items-end">
+                <div className="h-full min-w-[320px] md:w-1/2 bg-transparent flex flex-col justify-start space-y-5 pr-5 items-end">
                     {/* Image */}
                     <div className="h-72 w-72 rounded-md bg-gray-200 shadow flex jusitfy-center items-center overflow-hidden position relative">
                         {/* badge */}
