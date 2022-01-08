@@ -12,8 +12,8 @@ const HeroIndex = () => {
         <div className="h-auto md:h-[33rem] w-11/12 flex flex-col md:flex-row justify-center items-center bg-transparent">
             {/* Caption */}
             <div className="h-full w-full md:w-1/2 px-1 bg-transparent flex flex-col justify-start md:justify-center items-center md:items-start space-y-7 md:space-y-10 md:pl-30">
-                <h1 className="md:w-10/12 text-4xl md:text-7xl text-center md:text-left font-bold md:leading-none">Never Miss <span className={styled.highlight}>Breakfast</span> Again.</h1>
-                <p className="w-full md:w-6/12 text-sm text-gray-500 text-center md:text-left font-medium">Check out our amazing community of food lovers and get inspired for breakfast.</p>
+                <h1 className="w-10/12 md:w-10/12 text-4xl md:text-7xl text-center md:text-left font-bold md:leading-none">Never Miss <span className={styled.highlight}>Breakfast</span> Again.</h1>
+                <p className="w-10/12 md:w-6/12 text-sm text-gray-500 text-center md:text-left font-medium">Check out our amazing community of food lovers and get inspired for breakfast.</p>
                 <button className="w-46 bg-[#e85627] text-white py-2 px-5 rounded-md">Find my breakfast</button>
             </div>
             {/* Mockups */}
