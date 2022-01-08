@@ -1,0 +1,15 @@
+.rFlex {
+    display: flex;
+}
+.rBlock {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .rFlex {
+        display: none;
+    }
+    .rBlock {
+        display: none;
+    }
+}
