@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 const NavIndex = () => {
     return (
-        <nav className="h-16 w-10/12 bg-transparent flex justify-between items-center">
+        <nav className="h-16 w-10/12 md:px-5 bg-transparent flex justify-between items-center">
             {/* left */}
             <div className="h-full w-4/5 flex items-center justify-start space-x-3">
                 {/* logo */}
